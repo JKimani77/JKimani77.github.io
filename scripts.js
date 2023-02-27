@@ -1,6 +1,6 @@
-function dateToday () { 
-    let now = new Date();
-    //console.log(dateToday.now);
-    window.alert(dateToday.now)
-}
+function testScoped (randinT) {
+    let randomVar = 2;
+    let randomStr = 'fourrrrrrrrrrrrrrr';
+    return randomVar + randomStr + randinT
 
+}
