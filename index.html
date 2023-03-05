@@ -46,12 +46,32 @@
                 
                 <script>
                 
-                document.getElementById('testscoped').innerHTML =
-                 window.prompt(calculateBmi(w,h));
+                document.getElementById('testscoped').innerHTML = calculateBmi(w,h);
 
                 function calculateBmi (w, h) {
-                  return (w/(h**2))
+                  return w%h
                 }
+                
+
+
+                function solution(str, ending){
+  // TODO: complete
+  if (str.slice(-1) === ending.slice(-1) && str.slice(-2) ===
+      ending.slice(-2) && str.slice(-3) === ending.slice(-3) &&
+     str){
+      
+      
+    return true
+  } else {
+    return false
+  }
+}
+// && str[-1] === ending[-1] && str[-2] === ending[-2] && str[-3] === ending[-3] && str[-4] === ending[-4]
+    //str.slice(-3) === ending.slice(-3) ||
+    //str.slice(-2) === ending.slice(-2) ||
+      //str.slice(-4) === ending.slice(-4) ||
+
+
 
                  </script>
                  
