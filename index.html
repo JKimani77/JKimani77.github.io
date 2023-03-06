@@ -42,14 +42,15 @@
                 <h3 id="testscoped"></h3>
                 <h4 id="test"></h4>
     
-                <button onclick="window.alert(new Date())">Time Alert Button</button>
+                <button onclick="window.alert(new Date().getHours() && new Date().getMinutes())">Time Alert Button</button>
                 
                 <script>
                 
-                document.getElementById('testscoped').innerHTML = calculateBmi(w,h);
+                document.getElementById('testscoped').innerHTML = (new Date().getHours() &&
+                 new Date().getMinutes());
 
                 function calculateBmi (w, h) {
-                  return w%h
+                  return w%
                 }
                 
 
