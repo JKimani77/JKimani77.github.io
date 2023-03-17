@@ -5,3 +5,41 @@ background-color: rgb(223, 214, 214);
 .list-inline {font-size: 20px; color: antiquewhite; background-color: rgb(231, 220, 220);}
 
 .list-inline-item {font-size: 20px; color: rgb(237, 249, 255); background-color: rgb(211, 194, 194);}
+
+.header {
+    overflow: hidden;
+    background-color: #f7b086;
+    padding: 20px 10px;
+  }
+  
+
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  /* Change the background color on mouse-over */
+  .header a:hover {
+    background-color: #ddbebe;
+    color: black;
+  }
+  
+  /* Style the active/current link*/
+  .header a.active {
+    background-color: rgb(245, 100, 16);
+    color: white;
+  }
+  
+  
