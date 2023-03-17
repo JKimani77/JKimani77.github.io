@@ -1,10 +1,22 @@
-.social {font-size: 30px;color: antiquewhite;
-background-color: rgb(223, 214, 214);
+.social {
+    font-size: 30px;color: antiquewhite;
+    background-color: rgb(223, 214, 214);
 }
 
-.list-inline {font-size: 20px; color: antiquewhite; background-color: rgb(231, 220, 220);}
+.list-inline {
+    font-size: 20px;
+    color: antiquewhite;
+    background-color: rgb(231, 220, 220);}
 
-.list-inline-item {font-size: 20px; color: rgb(237, 249, 255); background-color: rgb(211, 194, 194);}
+.list-inline-item {
+    font-size: 20px;
+    color: rgb(237, 249, 255);
+    background-color: rgb(211, 194, 194);
+                }
+
+.wholerow {
+    background-color: rgb(114, 111, 111);
+}
 
 .header {
     overflow: hidden;
@@ -14,7 +26,7 @@ background-color: rgb(223, 214, 214);
   
 
   .header a {
-    float: left;
+    float: right;
     color: black;
     text-align: center;
     padding: 12px;
