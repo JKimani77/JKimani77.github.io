@@ -25,14 +25,14 @@
 
 .header {
     overflow: hidden;
-    background-color: #f7b086;
+    background-color: #fffac9;
     padding: 20px 10px;
   }
   
 
   .header a {
     float: right;
-    color: black;
+    color: rgb(253, 253, 253);
     text-align: center;
     padding: 12px;
     text-decoration: none;
@@ -49,13 +49,13 @@
   
   /* Change the background color on mouse-over */
   .header a:hover {
-    background-color: #ddbebe;
-    color: black;
+    background-color: #fff7f7;
+    color: rgb(255, 255, 255);
   }
   
   /* Style the active/current link*/
   .header a.active {
-    background-color: rgb(245, 100, 16);
+    background-color: rgb(255, 245, 239);
     color: white;
   }
   
@@ -74,4 +74,11 @@
     .header-right {
       float: none;
     }
+  }
+
+  .footer-basicc {
+    background-color: aquamarine;
+    margin: 4mm;
+    border-radius: 10mm;
+    border-color: rgb(253, 205, 142);
   }
