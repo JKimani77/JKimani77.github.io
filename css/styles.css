@@ -15,11 +15,10 @@
                 }
 
 .wholerow {
-    background-color: rgb(238, 195, 195);
-    margin: 4%;
-    border-radius: 8.5%;
+    background-color: rgb(2, 207, 156);
+    margin: 4mm;
     border-color: black;
-    padding: 4%;
+    padding: 4mm;
     
 }
 
@@ -32,7 +31,7 @@
 
   .header a {
     float: right;
-    color: rgb(240, 82, 61);
+    color: rgb(83, 26, 0);
     text-align: center;
     padding: 12px;
     text-decoration: none;
@@ -74,6 +73,13 @@
     .header-right {
       float: none;
     }
+  }
+
+  .tm-portfolio-itemimage {
+    align-content: center;
+    margin: 10mm;
+    padding-top: 200mm;
+
   }
 
   .footer-basicc {
