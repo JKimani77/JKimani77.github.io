@@ -58,12 +58,12 @@
                 <h3 id="testscoped"></h3>
                 <h4 id="test"></h4>
     
-                <button onclick="window.alert(new Date().getUTCDate())">button to tell the time</button>
+                <button onclick="window.alert(new Date())">button to tell the time</button>
                 
                 <script>
                 
-                document.getElementById('testscoped').innerHTML = (new Date().getHours() &
-                 new Date().getMinutes());
+                document.getElementById('testscoped').innerHTML = (new Date().getHours() && new Date().getMinutes());
+                 
 
                 
                 
