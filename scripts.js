@@ -9,8 +9,10 @@ const Vehicles = {
     model : "renault",
     year : 1970,
     drive: "lefthand",
-    transmission: "6-speedsequential"
+    transmission: "6-speedsequential",
 };
+Vehicles.model();
+delete[Vehicles.drive];
 
 class Rectangle {
     constructor(height, width) {
